@@ -11,7 +11,7 @@
                 </a>
 
                 <!-- Brand Logo Dark -->
-                <a href="l" class="logo-dark">
+                <a href="" class="logo-dark">
                     <img src="{{ asset('vendor/assets/images/logo-dark.png') }}" alt="dark logo" class="logo-lg">
                     <img src="{{ asset('vendor/assets/images/logo-sm.png') }}" alt="small logo" class="logo-sm">
                 </a>
@@ -107,7 +107,7 @@
                                 <div class="d-flex align-items-center">
                                     <div class="flex-shrink-0">
                                         <div class="notify-icon">
-                                            <img src="assets/images/users/avatar-2.jpg" class="img-fluid rounded-circle" alt="" />
+                                            <img src="{{ asset('vendor/assets/images/users/avatar-2.jpg') }}" class="img-fluid rounded-circle" alt="" />
                                         </div>
                                     </div>
                                     <div class="flex-grow-1 text-truncate ms-2">
@@ -145,7 +145,7 @@
                                 <div class="d-flex align-items-center">
                                     <div class="flex-shrink-0">
                                         <div class="notify-icon">
-                                            <img src="assets/images/users/avatar-4.jpg" class="img-fluid rounded-circle" alt="" />
+                                            <img src="{{ asset('vendor/assets/images/users/avatar-4.jpg') }}" class="img-fluid rounded-circle" alt="" />
                                         </div>
                                     </div>
                                     <div class="flex-grow-1 text-truncate ms-2">

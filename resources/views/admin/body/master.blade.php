@@ -146,7 +146,7 @@
                     <a href="javascript: void(0);" class="text-reset notification-item">
                         <div class="d-flex align-items-start noti-user-item">
                             <div class="position-relative me-2">
-                                <img src="assets/images/users/user-10.jpg" class="rounded-circle avatar-sm" alt="user-pic">
+                                <img src="{{ asset('admin/assets/images/users/user-10.jpg') }}" class="rounded-circle avatar-sm" alt="user-pic">
                                 <i class="mdi mdi-circle user-status online"></i>
                             </div>
                             <div class="overflow-hidden">
@@ -161,7 +161,7 @@
                     <a href="javascript: void(0);" class="text-reset notification-item">
                         <div class="d-flex align-items-start noti-user-item">
                             <div class="position-relative me-2">
-                                <img src="assets/images/users/user-1.jpg" class="rounded-circle avatar-sm" alt="user-pic">
+                                <img src="{{ asset('admin/assets/images/users/user-1.jpg') }}" class="rounded-circle avatar-sm" alt="user-pic">
                                 <i class="mdi mdi-circle user-status away"></i>
                             </div>
                             <div class="overflow-hidden">
